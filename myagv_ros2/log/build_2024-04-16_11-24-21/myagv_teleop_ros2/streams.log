@@ -1,0 +1,24 @@
+[0.558s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2': CONDA_PROMPT_MODIFIER=(adaface) PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[0.775s] running egg_info
+[0.776s] writing ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/requires.txt
+[0.776s] writing top-level names to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/top_level.txt
+[0.777s] reading manifest file '../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/SOURCES.txt'
+[0.778s] writing manifest file '../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.778s] running install
+[0.778s] running install_lib
+[0.779s] running install_data
+[0.779s] copying package.xml -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2
+[0.780s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/launch
+[0.780s] copying launch/myagv_teleop_ros2.launch.py -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/launch
+[0.780s] running install_egg_info
+[0.781s] removing '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.781s] Copying ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info to /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.797s] Installing myagv_teleop_ros2 script to /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/myagv_teleop_ros2
+[0.797s] writing list of installed files to '/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log'
+[0.815s] Invoked command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2' returned '0': CONDA_PROMPT_MODIFIER=(adaface) PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data

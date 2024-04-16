@@ -9,8 +9,12 @@
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <exec_depend>myagv_bringup</exec_depend>
-  <exec_depend>myagv_teleop_ros2</exec_depend>
   <exec_depend>myagv_cartographer</exec_depend>
+  <exec_depend>myagv_description</exec_depend>
+  <exec_depend>myagv_navigation2</exec_depend>
+  <exec_depend>myagv_teleop_ros2</exec_depend>
+  <exec_depend>myagv_simulations</exec_depend>
+  <exec_depend>ydlidar_ros2_driver</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

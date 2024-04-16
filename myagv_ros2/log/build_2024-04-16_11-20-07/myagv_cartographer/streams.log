@@ -1,0 +1,56 @@
+[0.030s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/build/myagv_cartographer': CONDA_PROMPT_MODIFIER=(adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/myagv_cartographer -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.240s] -- Detecting C compiler ABI info
+[0.283s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.353s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Found Python3: /home/minha/anaconda3/envs/adaface/bin/python3 (found version "3.9.19") found components: Interpreter 
+[0.672s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.746s] Error parsing '/home/minha/myagv_ros2/myagv_ros2/src/myagv_cartographer/package.xml':
+[0.746s] Traceback (most recent call last):
+[0.746s]   File "/home/minha/anaconda3/envs/adaface/lib/python3.9/site-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.746s]     root = dom.parseString(data)
+[0.746s]   File "/home/minha/anaconda3/envs/adaface/lib/python3.9/xml/dom/minidom.py", line 1998, in parseString
+[0.746s]     return expatbuilder.parseString(string)
+[0.746s]   File "/home/minha/anaconda3/envs/adaface/lib/python3.9/xml/dom/expatbuilder.py", line 925, in parseString
+[0.747s]     return builder.parseString(string)
+[0.747s]   File "/home/minha/anaconda3/envs/adaface/lib/python3.9/xml/dom/expatbuilder.py", line 223, in parseString
+[0.747s]     parser.Parse(string, True)
+[0.747s] xml.parsers.expat.ExpatError: mismatched tag: line 12, column 33
+[0.747s] 
+[0.747s] During handling of the above exception, another exception occurred:
+[0.747s] 
+[0.747s] Traceback (most recent call last):
+[0.747s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.747s]     main()
+[0.747s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.747s]     raise e
+[0.747s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.747s]     package = parse_package_string(
+[0.747s]   File "/home/minha/anaconda3/envs/adaface/lib/python3.9/site-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.747s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.747s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/minha/myagv_ros2/myagv_ros2/src/myagv_cartographer/package.xml':
+[0.747s] The manifest contains invalid XML:
+[0.747s] mismatched tag: line 12, column 33
+[0.759s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.759s]   execute_process(/home/minha/anaconda3/envs/adaface/bin/python3
+[0.759s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.759s]   /home/minha/myagv_ros2/myagv_ros2/src/myagv_cartographer/package.xml
+[0.759s]   /home/minha/myagv_ros2/myagv_ros2/build/myagv_cartographer/ament_cmake_core/package.cmake)
+[0.759s]   returned error code 1
+[0.759s] Call Stack (most recent call first):
+[0.759s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.759s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.759s]   CMakeLists.txt:26 (ament_lint_auto_find_test_dependencies)
+[0.759s] 
+[0.759s] [0m
+[0.759s] -- Configuring incomplete, errors occurred!
+[0.768s] Invoked command in '/home/minha/myagv_ros2/myagv_ros2/build/myagv_cartographer' returned '1': CONDA_PROMPT_MODIFIER=(adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/myagv_cartographer -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer

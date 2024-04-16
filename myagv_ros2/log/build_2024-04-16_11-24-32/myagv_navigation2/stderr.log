@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/minha/myagv_ros2/myagv_ros2/src/myagv_navigation2/params": No such
+  file or directory.
+
+[0m

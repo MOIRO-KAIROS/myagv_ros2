@@ -1,0 +1,3 @@
+source;share/myagv_bringup/hook/pythonpath.ps1
+source;share/myagv_bringup/hook/pythonpath.dsv
+source;share/myagv_bringup/hook/pythonpath.sh

@@ -1,0 +1,243 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Current platform: Linux
+-- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+-- Found PythonInterp: /home/minha/anaconda3/envs/new_adaface/bin/python (found version "3.10.14") 
+-- Found PythonLibs: /home/minha/anaconda3/envs/new_adaface/lib/libpython3.10.so (found version "3.10.14") 
+-- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+-- 
+-- +===========================================================================+
+-- |         Resulting configuration for                             |
+-- +===========================================================================+
+--  _________________________ PLATFORM _____________________________
+--  Host                        : Linux6.5.0-1019-oemx86_64
+--  Is the system big endian?   :  No 
+--  Word size (32/64 bit)       : 64
+--  CMake version               : 3.26.0
+--  CMake generator             : Unix Makefiles
+--  CMake build tool            : /usr/bin/gmake
+--  Compiler                    : GNU
+--  Configuration               : 
+-- 
+--  __________________________ OPTIONS _____________________________
+--  Build YDLidar-SDK as a shared library?　　 :  No 
+--  Build Examples?　　　　　　　　　　　　　　 : Yes 
+--  Build C Sharp API?　　　　　　　　　　　　 :  No 
+--  Build TEST?  			　　　 :  No 
+-- 
+--  _________________________ INSTALL _____________________
+--  Install prefix                    : /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk
+-- 
+--  _______________________ WRAPPERS/BINDINGS ______________________
+--  Python bindings (pyydlidar)   :  No 
+--   - dep: Swig found?       :  No [Version: ]
+--   - dep: PythonLibs found?  : Yes [Version: 3.10.14]
+-- 
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/minha/myagv_ros2/myagv_ros2/build/ydlidar_sdk
+[  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/base/timer.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/common/ydlidar_def.cpp.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/serial.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/DTSLidarDriver.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ETLidarDriver.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/GSLidarDriver.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/SDMLidarDriver.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/YDlidarDriver.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/ydlidar_sdk.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/NoiseFilter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/ydlidar_sdk.dir/src/filters/StrongLightFilter.cpp.o[0m
+[ 42%] [32m[1mLinking CXX static library libydlidar_sdk.a[0m
+[ 42%] Built target ydlidar_sdk
+[ 44%] [32mBuilding CXX object examples/CMakeFiles/gs_ota.dir/gs_ota.cpp.o[0m
+[ 46%] [32mBuilding CXX object examples/CMakeFiles/et_test.dir/et_test.cpp.o[0m
+[ 48%] [32mBuilding CXX object examples/CMakeFiles/sdm_test.dir/sdm_test.cpp.o[0m
+[ 53%] [32mBuilding CXX object examples/CMakeFiles/scl_test.dir/scl_test.cpp.o[0m
+[ 53%] [32mBuilding CXX object examples/CMakeFiles/gs_test.dir/gs_test.cpp.o[0m
+[ 55%] [32mBuilding CXX object examples/CMakeFiles/sdm18_test.dir/sdm18_test.cpp.o[0m
+[ 57%] [32mBuilding CXX object examples/CMakeFiles/tmini_test.dir/tmini_test.cpp.o[0m
+[ 60%] [32mBuilding CXX object examples/CMakeFiles/tof_test.dir/tof_test.cpp.o[0m
+[ 62%] [32mBuilding CXX object examples/CMakeFiles/tri_and_gs_test.dir/tri_and_gs_test.cpp.o[0m
+[ 64%] [32mBuilding CXX object examples/CMakeFiles/tea_test.dir/tea_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object examples/CMakeFiles/tri_test.dir/tri_test.cpp.o[0m
+[ 68%] [32mBuilding CXX object examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable ../tri_and_gs_test[0m
+[ 73%] [32m[1mLinking CXX executable ../sdm_test[0m
+[ 75%] [32m[1mLinking CXX executable ../tri_restart[0m
+[ 77%] [32m[1mLinking CXX executable ../et_test[0m
+[ 77%] Built target sdm_test
+[ 77%] Built target tri_restart
+[ 80%] [32m[1mLinking CXX executable ../sdm18_test[0m
+[ 80%] Built target tri_and_gs_test
+[ 82%] [32mBuilding C object examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o[0m
+[ 84%] [32m[1mLinking CXX executable ../lidar_c_api_test[0m
+[ 84%] Built target et_test
+[ 86%] [32m[1mLinking CXX executable ../tof_test[0m
+[ 86%] Built target sdm18_test
+[ 88%] [32m[1mLinking CXX executable ../tea_test[0m
+[ 91%] [32m[1mLinking CXX executable ../scl_test[0m
+[ 91%] Built target lidar_c_api_test
+[ 91%] Built target tof_test
+[ 93%] [32m[1mLinking CXX executable ../tmini_test[0m
+[ 93%] Built target scl_test
+[ 93%] Built target tea_test
+[ 95%] [32m[1mLinking CXX executable ../gs_test[0m
+[ 97%] [32m[1mLinking CXX executable ../tri_test[0m
+[100%] [32m[1mLinking CXX executable ../gs_ota[0m
+[100%] Built target tmini_test
+[100%] Built target tri_test
+[100%] Built target gs_test
+[100%] Built target gs_ota
+-- Install configuration: ""
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/datatype.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/locker.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/thread.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/timer.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/typedef.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/utils.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/v8stdint.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/base/ydlidar.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/ChannelDevice.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/DriverInterface.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/ydlidar_def.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/ydlidar_help.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/math/angles.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/network/ActiveSocket.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/network/PassiveSocket.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/network/SimpleSocket.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/network/StatTimer.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/serial/common.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/serial/serial.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/CYdLidar.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/DTSLidarDriver.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/ETLidarDriver.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/GSLidarDriver.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/SDMLidarDriver.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/YDlidarDriver.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/ydlidar_sdk.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/filters/FilterInterface.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/filters/NoiseFilter.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src/filters/StrongLightFilter.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/ydlidar_config.h
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/lib/libydlidar_sdk.a
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/startup/initenv.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/et_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/gs_ota
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/gs_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/scl_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/sdm18_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/sdm_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tea_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tmini_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tof_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tri_and_gs_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tri_restart
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/tri_test
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/bin/lidar_c_api_test

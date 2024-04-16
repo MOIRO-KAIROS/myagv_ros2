@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/myagv_bringup/myagv_bringup.egg-info/PKG-INFO
+../../build/myagv_bringup/myagv_bringup.egg-info/SOURCES.txt
+../../build/myagv_bringup/myagv_bringup.egg-info/dependency_links.txt
+../../build/myagv_bringup/myagv_bringup.egg-info/entry_points.txt
+../../build/myagv_bringup/myagv_bringup.egg-info/requires.txt
+../../build/myagv_bringup/myagv_bringup.egg-info/top_level.txt
+../../build/myagv_bringup/myagv_bringup.egg-info/zip-safe
+myagv_bringup/__init__.py
+resource/myagv_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

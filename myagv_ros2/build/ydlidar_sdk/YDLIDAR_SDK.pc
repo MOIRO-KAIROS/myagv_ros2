@@ -1,0 +1,11 @@
+prefix=/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: YDLIDAR_SDK
+Description: 
+Version: 1.2.4
+Cflags:   -I/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include/src -I/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_sdk/include
+Libs: -L${libdir}  -lpthread -lrt -lydlidar_sdk
+

@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/minha/myagv_ros2/myagv_ros2/build/myagv_navigation2
+-- Install configuration: ""
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch/navigation2_rviz.launch.py
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch/navigation2.launch.py
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/turtlebot3_world.pgm
+-- Up-to-date: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/turtlebot3_world.yaml
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/param
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/param/myagv.yaml
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/rviz
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/rviz/tb3_navigation2.rviz
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/package_run_dependencies/myagv_navigation2
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/parent_prefix_path/myagv_navigation2
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/ament_prefix_path.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/path.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/path.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.bash
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.zsh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/packages/myagv_navigation2
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/cmake/myagv_navigation2Config.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/cmake/myagv_navigation2Config-version.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.xml

@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/minha/myagv_ros2/myagv_ros2/build/myagv_cartographer
+-- Install configuration: ""
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch/cartographer_rviz.launch.py
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch/occupancy_grid.launch.py
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch/cartographer.launch.py
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/config
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/config/myagv_lidar.lua
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/rviz
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/rviz/myagv_cartographer.rviz
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/package_run_dependencies/myagv_cartographer
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/parent_prefix_path/myagv_cartographer
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/ament_prefix_path.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/ament_prefix_path.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/path.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/path.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.bash
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.sh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.zsh
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.dsv
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/packages/myagv_cartographer
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/cmake/myagv_cartographerConfig.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/cmake/myagv_cartographerConfig-version.cmake
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.xml

@@ -1,0 +1,35 @@
+[0.466s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_bringup build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/install.log --single-version-externally-managed install_data
+[0.638s] running egg_info
+[0.638s] creating ../../build/myagv_bringup/myagv_bringup.egg-info
+[0.638s] writing ../../build/myagv_bringup/myagv_bringup.egg-info/PKG-INFO
+[0.639s] writing dependency_links to ../../build/myagv_bringup/myagv_bringup.egg-info/dependency_links.txt
+[0.639s] writing entry points to ../../build/myagv_bringup/myagv_bringup.egg-info/entry_points.txt
+[0.639s] writing requirements to ../../build/myagv_bringup/myagv_bringup.egg-info/requires.txt
+[0.639s] writing top-level names to ../../build/myagv_bringup/myagv_bringup.egg-info/top_level.txt
+[0.639s] writing manifest file '../../build/myagv_bringup/myagv_bringup.egg-info/SOURCES.txt'
+[0.640s] reading manifest file '../../build/myagv_bringup/myagv_bringup.egg-info/SOURCES.txt'
+[0.640s] writing manifest file '../../build/myagv_bringup/myagv_bringup.egg-info/SOURCES.txt'
+[0.640s] running build
+[0.640s] running build_py
+[0.640s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build
+[0.641s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build/lib
+[0.641s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build/lib/myagv_bringup
+[0.641s] copying myagv_bringup/__init__.py -> /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build/lib/myagv_bringup
+[0.641s] running install
+[0.641s] running install_lib
+[0.641s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages/myagv_bringup
+[0.641s] copying /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build/lib/myagv_bringup/__init__.py -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages/myagv_bringup
+[0.642s] byte-compiling /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages/myagv_bringup/__init__.py to __init__.cpython-310.pyc
+[0.642s] running install_data
+[0.642s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share
+[0.642s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/ament_index
+[0.642s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index
+[0.642s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/packages
+[0.642s] copying resource/myagv_bringup -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/packages
+[0.642s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup
+[0.642s] copying package.xml -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup
+[0.642s] running install_egg_info
+[0.643s] Copying ../../build/myagv_bringup/myagv_bringup.egg-info to /home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages/myagv_bringup-0.0.0-py3.10.egg-info
+[0.644s] running install_scripts
+[0.659s] writing list of installed files to '/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/install.log'
+[0.676s] Invoked command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup' returned '0': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_bringup build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/install.log --single-version-externally-managed install_data

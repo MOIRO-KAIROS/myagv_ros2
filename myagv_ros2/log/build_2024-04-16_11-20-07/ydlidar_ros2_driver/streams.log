@@ -1,0 +1,50 @@
+[0.029s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/minha/colcon_ws/install/ultraarm:/home/minha/colcon_ws/install/mypalletizer_260_pi:/home/minha/colcon_ws/install/mypalletizer_260:/home/minha/colcon_ws/install/mypalletizer_communication:/home/minha/colcon_ws/install/mycobot_630:/home/minha/colcon_ws/install/mycobot_600:/home/minha/colcon_ws/install/mycobot_320pi:/home/minha/colcon_ws/install/mycobot_320:/home/minha/colcon_ws/install/mycobot_280pi:/home/minha/colcon_ws/install/mycobot_280jn:/home/minha/colcon_ws/install/mycobot_280_x3pi:/home/minha/colcon_ws/install/mycobot_280:/home/minha/colcon_ws/install/myarm_300:/home/minha/colcon_ws/install/mycobot_communication:/home/minha/colcon_ws/install/mecharm_pi:/home/minha/colcon_ws/install/mecharm:/home/minha/colcon_ws/install/mecharm_communication:/home/minha/colcon_ws/install/mybuddy:/home/minha/colcon_ws/install/mycobot_description:/home/minha/ros2_ws_tut/install/urdf_turtorial:/home/minha/ros2_ws_tut/install/ros_topic:/home/minha/ros2_ws_tut/install/ros_mini_proj:/home/minha/ros2_ws_tut/install/python_parameters:/home/minha/ros2_ws_tut/install/motor_control_serial:/home/minha/ros2_ws_tut/install/action_tutorial:/home/minha/ros2_ws_tut/install/action_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_ros2_driver
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.234s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.318s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.416s] -- Detecting CXX compile features
+[0.417s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /home/minha/anaconda3/envs/adaface/bin/python3 (found version "3.9.19") found components: Interpreter 
+[0.794s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.891s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.902s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.921s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.069s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.075s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.170s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.197s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.307s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.308s] -- Found Threads: TRUE  
+[1.449s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.555s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.653s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.677s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[1.677s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[1.678s]   has asked CMake to find a package configuration file provided by
+[1.678s]   "ydlidar_sdk", but CMake did not find one.
+[1.678s] 
+[1.678s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[1.678s]   any of the following names:
+[1.678s] 
+[1.678s]     ydlidar_sdkConfig.cmake
+[1.678s]     ydlidar_sdk-config.cmake
+[1.678s] 
+[1.678s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[1.679s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[1.679s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[1.679s]   has been installed.
+[1.679s] 
+[1.679s] [0m
+[1.679s] -- Configuring incomplete, errors occurred!

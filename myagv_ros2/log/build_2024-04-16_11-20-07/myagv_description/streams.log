@@ -1,0 +1,24 @@
+[0.031s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/minha/colcon_ws/install/ultraarm:/home/minha/colcon_ws/install/mypalletizer_260_pi:/home/minha/colcon_ws/install/mypalletizer_260:/home/minha/colcon_ws/install/mypalletizer_communication:/home/minha/colcon_ws/install/mycobot_630:/home/minha/colcon_ws/install/mycobot_600:/home/minha/colcon_ws/install/mycobot_320pi:/home/minha/colcon_ws/install/mycobot_320:/home/minha/colcon_ws/install/mycobot_280pi:/home/minha/colcon_ws/install/mycobot_280jn:/home/minha/colcon_ws/install/mycobot_280_x3pi:/home/minha/colcon_ws/install/mycobot_280:/home/minha/colcon_ws/install/myarm_300:/home/minha/colcon_ws/install/mycobot_communication:/home/minha/colcon_ws/install/mecharm_pi:/home/minha/colcon_ws/install/mecharm:/home/minha/colcon_ws/install/mecharm_communication:/home/minha/colcon_ws/install/mybuddy:/home/minha/colcon_ws/install/mycobot_description:/home/minha/ros2_ws_tut/install/urdf_turtorial:/home/minha/ros2_ws_tut/install/ros_topic:/home/minha/ros2_ws_tut/install/ros_mini_proj:/home/minha/ros2_ws_tut/install/python_parameters:/home/minha/ros2_ws_tut/install/motor_control_serial:/home/minha/ros2_ws_tut/install/action_tutorial:/home/minha/ros2_ws_tut/install/action_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/myagv_description -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/myagv_description
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.324s] -- Detecting CXX compiler ABI info
+[0.388s] -- Detecting CXX compiler ABI info - done
+[0.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.398s] -- Detecting CXX compile features
+[0.398s] -- Detecting CXX compile features - done
+[0.402s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.582s] -- Found Python3: /home/minha/anaconda3/envs/adaface/bin/python3 (found version "3.9.19") found components: Interpreter 
+[0.714s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.820s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.969s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.970s] -- Added test 'lint_cmake' to check CMake code style
+[0.971s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.972s] -- Added test 'xmllint' to check XML markup files
+[0.974s] -- Configuring done (0.9s)
+[0.976s] -- Generating done (0.0s)
+[0.977s] -- Build files have been written to: /home/minha/myagv_ros2/myagv_ros2/build/myagv_description

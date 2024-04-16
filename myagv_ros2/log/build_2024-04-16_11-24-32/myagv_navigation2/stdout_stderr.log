@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch/navigation2_rviz.launch.py
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch/navigation2.launch.py
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map
+-- Installing: /home/minha/myagv_ros2/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/turtlebot3_world.yaml
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/minha/myagv_ros2/myagv_ros2/src/myagv_navigation2/params": No such
+  file or directory.
+
+[0m

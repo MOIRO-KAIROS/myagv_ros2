@@ -1,0 +1,33 @@
+[0.033s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/minha/colcon_ws/install/ultraarm:/home/minha/colcon_ws/install/mypalletizer_260_pi:/home/minha/colcon_ws/install/mypalletizer_260:/home/minha/colcon_ws/install/mypalletizer_communication:/home/minha/colcon_ws/install/mycobot_630:/home/minha/colcon_ws/install/mycobot_600:/home/minha/colcon_ws/install/mycobot_320pi:/home/minha/colcon_ws/install/mycobot_320:/home/minha/colcon_ws/install/mycobot_280pi:/home/minha/colcon_ws/install/mycobot_280jn:/home/minha/colcon_ws/install/mycobot_280_x3pi:/home/minha/colcon_ws/install/mycobot_280:/home/minha/colcon_ws/install/myarm_300:/home/minha/colcon_ws/install/mycobot_communication:/home/minha/colcon_ws/install/mecharm_pi:/home/minha/colcon_ws/install/mecharm:/home/minha/colcon_ws/install/mecharm_communication:/home/minha/colcon_ws/install/mybuddy:/home/minha/colcon_ws/install/mycobot_description:/home/minha/ros2_ws_tut/install/urdf_turtorial:/home/minha/ros2_ws_tut/install/ros_topic:/home/minha/ros2_ws_tut/install/ros_mini_proj:/home/minha/ros2_ws_tut/install/python_parameters:/home/minha/ros2_ws_tut/install/motor_control_serial:/home/minha/ros2_ws_tut/install/action_tutorial:/home/minha/ros2_ws_tut/install/action_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(new_adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_ros2_driver
+[0.067s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.179s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.186s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.261s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.263s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.639s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.733s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[0.756s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.757s]   By not providing "Findydlidar_sdk.cmake" in CMAKE_MODULE_PATH this project
+[0.757s]   has asked CMake to find a package configuration file provided by
+[0.757s]   "ydlidar_sdk", but CMake did not find one.
+[0.757s] 
+[0.757s]   Could not find a package configuration file provided by "ydlidar_sdk" with
+[0.757s]   any of the following names:
+[0.757s] 
+[0.757s]     ydlidar_sdkConfig.cmake
+[0.757s]     ydlidar_sdk-config.cmake
+[0.757s] 
+[0.757s]   Add the installation prefix of "ydlidar_sdk" to CMAKE_PREFIX_PATH or set
+[0.758s]   "ydlidar_sdk_DIR" to a directory containing one of the above files.  If
+[0.758s]   "ydlidar_sdk" provides a separate development package or SDK, be sure it
+[0.758s]   has been installed.
+[0.758s] 
+[0.758s] [0m
+[0.758s] -- Configuring incomplete, errors occurred!
+[0.767s] Invoked command in '/home/minha/myagv_ros2/myagv_ros2/build/ydlidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/minha/colcon_ws/install/ultraarm:/home/minha/colcon_ws/install/mypalletizer_260_pi:/home/minha/colcon_ws/install/mypalletizer_260:/home/minha/colcon_ws/install/mypalletizer_communication:/home/minha/colcon_ws/install/mycobot_630:/home/minha/colcon_ws/install/mycobot_600:/home/minha/colcon_ws/install/mycobot_320pi:/home/minha/colcon_ws/install/mycobot_320:/home/minha/colcon_ws/install/mycobot_280pi:/home/minha/colcon_ws/install/mycobot_280jn:/home/minha/colcon_ws/install/mycobot_280_x3pi:/home/minha/colcon_ws/install/mycobot_280:/home/minha/colcon_ws/install/myarm_300:/home/minha/colcon_ws/install/mycobot_communication:/home/minha/colcon_ws/install/mecharm_pi:/home/minha/colcon_ws/install/mecharm:/home/minha/colcon_ws/install/mecharm_communication:/home/minha/colcon_ws/install/mybuddy:/home/minha/colcon_ws/install/mycobot_description:/home/minha/ros2_ws_tut/install/urdf_turtorial:/home/minha/ros2_ws_tut/install/ros_topic:/home/minha/ros2_ws_tut/install/ros_mini_proj:/home/minha/ros2_ws_tut/install/python_parameters:/home/minha/ros2_ws_tut/install/motor_control_serial:/home/minha/ros2_ws_tut/install/action_tutorial:/home/minha/ros2_ws_tut/install/action_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(new_adaface) /home/minha/anaconda3/envs/adaface/bin/cmake /home/minha/myagv_ros2/myagv_ros2/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/minha/myagv_ros2/myagv_ros2/install/ydlidar_ros2_driver

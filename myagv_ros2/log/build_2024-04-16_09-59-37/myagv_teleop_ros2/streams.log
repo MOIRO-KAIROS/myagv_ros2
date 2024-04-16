@@ -1,0 +1,36 @@
+[0.643s] Invoking command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[0.812s] running egg_info
+[0.812s] creating ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info
+[0.812s] writing ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/PKG-INFO
+[0.812s] writing dependency_links to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/dependency_links.txt
+[0.813s] writing entry points to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/entry_points.txt
+[0.813s] writing requirements to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/requires.txt
+[0.813s] writing top-level names to ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/top_level.txt
+[0.813s] writing manifest file '../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/SOURCES.txt'
+[0.814s] reading manifest file '../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/SOURCES.txt'
+[0.814s] writing manifest file '../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info/SOURCES.txt'
+[0.814s] running build
+[0.814s] running build_py
+[0.814s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build
+[0.814s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build/lib
+[0.814s] creating /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build/lib/myagv_teleop_ros2
+[0.814s] copying myagv_teleop_ros2/__init__.py -> /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build/lib/myagv_teleop_ros2
+[0.815s] running install
+[0.815s] running install_lib
+[0.815s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2
+[0.815s] copying /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build/lib/myagv_teleop_ros2/__init__.py -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2
+[0.815s] byte-compiling /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2/__init__.py to __init__.cpython-310.pyc
+[0.815s] running install_data
+[0.815s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share
+[0.816s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/ament_index
+[0.816s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/ament_index/resource_index
+[0.816s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/ament_index/resource_index/packages
+[0.816s] copying resource/myagv_teleop_ros2 -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/ament_index/resource_index/packages
+[0.816s] creating /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2
+[0.816s] copying package.xml -> /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2
+[0.816s] running install_egg_info
+[0.817s] Copying ../../build/myagv_teleop_ros2/myagv_teleop_ros2.egg-info to /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages/myagv_teleop_ros2-0.0.0-py3.10.egg-info
+[0.817s] running install_scripts
+[0.832s] Installing myagv_teleop_ros2 script to /home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/myagv_teleop_ros2
+[0.832s] writing list of installed files to '/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log'
+[0.849s] Invoked command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2' returned '0': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,299 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75834a307d00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75834a3078b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75834a3078b0>>)
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/minha/myagv_ros2/myagv_ros2'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['ignore']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'python'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/myagv_bringup' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'python_setup_py'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_bringup' with type 'python' and name 'myagv_bringup'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['ignore']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extensions ['ignore']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extensions ['python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/config) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extensions ['ignore']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extensions ['python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer/launch) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['ignore']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extensions ['ignore']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extensions ['python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/meshes) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extensions ['ignore']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extensions ['python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description/urdf) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['ignore']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extensions ['ignore']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extensions ['python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2/launch) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['ignore']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'python_setup_py'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['ignore']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'python'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/myagv_teleop_ros2' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['python_setup_py']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'python_setup_py'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_teleop_ros2' with type 'python' and name 'myagv_teleop_ros2'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extensions ['ignore']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extensions ['python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/config) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extensions ['ignore']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extensions ['python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/images) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extensions ['ignore']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extensions ['python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/launch) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extensions ['ignore']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extensions ['python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/params) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extensions ['ignore']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extensions ['python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/src) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extensions ['ignore']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extensions ['python']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extension 'python'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extensions ['python_setup_py']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver/startup) by extension 'python_setup_py'
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/minha/colcon_ws/install
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/minha/ros2_ws_tut/install
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/minha/ros2_ws/install
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/minha/turtlebot3_ws/install
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_bringup' with the following arguments: {'build_base': '/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup', 'install_base': '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup', 'merge_install': False, 'path': '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_teleop_ros2' with the following arguments: {'build_base': '/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2', 'install_base': '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2', 'merge_install': False, 'path': '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.560s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.560s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup'
+[0.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.564s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2'
+[0.564s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.564s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_bringup build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/install.log --single-version-externally-managed install_data
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[1.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_bringup' returned '0': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_bringup build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_bringup/install.log --single-version-externally-managed install_data
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/pkgconfig/myagv_bringup.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages'
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_bringup', 'pythonpath')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/pythonpath.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/pythonpath.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/pythonpath.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/bin'
+[1.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_bringup)
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.sh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.bash'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.zsh'
+[1.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minha/myagv_ros2/myagv_ros2/install/myagv_bringup/share/colcon-core/packages/myagv_bringup)
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/bin'
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/pkgconfig/myagv_teleop_ros2.pc'
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/minha/myagv_ros2/myagv_ros2/src/myagv_teleop_ros2' returned '0': PYTHONPATH=/home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/minha/myagv_ros2/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[1.413s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages'
+[1.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_teleop_ros2', 'pythonpath')
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.sh'
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_teleop_ros2)
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.zsh'
+[1.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/minha/myagv_ros2/myagv_ros2/install/myagv_teleop_ros2/share/colcon-core/packages/myagv_teleop_ros2)
+[1.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.416s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.426s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.427s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.427s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.440s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minha/myagv_ros2/myagv_ros2/install/local_setup.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minha/myagv_ros2/myagv_ros2/install/_local_setup_util_ps1.py'
+[1.443s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minha/myagv_ros2/myagv_ros2/install/setup.ps1'
+[1.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minha/myagv_ros2/myagv_ros2/install/local_setup.sh'
+[1.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/minha/myagv_ros2/myagv_ros2/install/_local_setup_util_sh.py'
+[1.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minha/myagv_ros2/myagv_ros2/install/setup.sh'
+[1.445s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minha/myagv_ros2/myagv_ros2/install/local_setup.bash'
+[1.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minha/myagv_ros2/myagv_ros2/install/setup.bash'
+[1.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/minha/myagv_ros2/myagv_ros2/install/local_setup.zsh'
+[1.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/minha/myagv_ros2/myagv_ros2/install/setup.zsh'
