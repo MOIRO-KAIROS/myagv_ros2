@@ -2,26 +2,24 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>myagv_odometry</name>
-  <version>1.1.14</version>
-  <description>The myagv_odometry package</description>
-
-  <maintainer email="shou@todo.todo">shou</maintainer>
-
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="realsteel90@dgu.ac.kr">hyunwoo</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
-  <depend>tf2</depend>
-  <depend>tf2_ros</depend>
+  <depend>std_msgs</depend>
   <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <depend>nav_msgs</depend>
 
-
-  <exec_depend>rclcpp</exec_depend>
-  <exec_depend>rclcpp_action</exec_depend>
-  <exec_depend>rclcpp_lifecycle</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>pluginlib</exec_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

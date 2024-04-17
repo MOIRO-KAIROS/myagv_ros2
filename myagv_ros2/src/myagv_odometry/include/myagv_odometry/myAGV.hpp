@@ -1,15 +1,22 @@
-#ifndef MYAGV_H
-#define MYAGV_H
-
-#include "rclcpp/rclcpp.hpp"
-#include "rclcpp_action/rclcpp_action.hpp"
-#include <sensor_msgs/msg/imu.hpp>
-#include <tf2_ros/transform_broadcaster.h>
+#ifndef MYAGV_HPP
+#define MYAGV_HPP
 
 #include <memory>
 #include <string>
 #include <iostream>
 #include <vector>
+
+#include <rclcpp/rclcpp.hpp>
+#include <rclcpp_action/rclcpp_action.hpp>
+#include <geometry_msgs/msg/transform_stamped.hpp>
+#include <sensor_msgs/msg/imu.hpp>
+#include <sensor_msgs/msg/joint_state.hpp>
+
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2_ros/transform_broadcaster.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include <nav_msgs/msg/odometry.hpp>
+#include <std_msgs/msg/int8.hpp>
 
 
 
@@ -23,7 +30,8 @@ class MyAGV : public rclcpp::Node
 {
 public:
 	MyAGV();
-	~MyAGV();
+	virtual ~MyAGV(); //{}
+
 	bool init();
 	float invSqrt(float number);
 	bool execute(double linearX, double linearY, double angularZ);
@@ -63,9 +71,13 @@ private:
 	float sampleFreq;
 	unsigned short Offest_Count;
     sensor_msgs::msg::Imu imu_data;
-	rclcpp::Node n;
-	rclcpp::Publisher<std_msgs::msg::Int8>::SharedPtr pub_odom,pub_v,pub_imu,pub,pub_imu_raw;
-	tf2_ros::TransformBroadcaster odomBroadcaster;
+	rclcpp::Node::SharedPtr node_handle_;
+	rclcpp::Publisher<std_msgs::msg::Int8>::SharedPtr pub_v;
+	rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr pub_imu,pub_imu_raw;
+	rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr pub_odom, pub;
+	//  tf2_ros::TransformBroadcaster odomBroadcaster;
+	std::shared_ptr<tf2_ros::TransformBroadcaster> odomBroadcaster;
+	// rclcpp::Publisher<tf2_ros::TransformBroadcaster>::SharedPtr odomBroadcaster;
 };
 
 

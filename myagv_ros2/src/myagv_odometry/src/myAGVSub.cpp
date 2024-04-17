@@ -1,6 +1,5 @@
 #include "myagv_odometry/myAGV.hpp"
 #include <iostream>
-#include <memory>
 
 double linearX = 0.0;
 double linearY = 0.0;
@@ -8,40 +7,36 @@ double angularZ = 0.0;
 
 using std::placeholders::_1;
 
-class MyAGVSubscriber : public rclcpp::Node
+void cmdCallback(const geometry_msgs::msg::Twist& msg)
 {
-public:
-    MyAGVSubscriber() : Node("myagv_odometry_node"), myAGV(std::make_shared<MyAGV>())
-    {
-        subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
-            "cmd_vel", 50, std::bind(&MyAGVSubscriber::cmdCallback, this, _1));
-
-        if (!myAGV->init())
-            RCLCPP_ERROR(this->get_logger(), "myAGV initialized failed!");
-        else
-            RCLCPP_INFO(this->get_logger(), "myAGV initialized successful!");
-    }
-
-private:
-    void cmdCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
-    {
-        double linearX = msg->linear.x;
-        double linearY = msg->linear.y;
-        double angularZ = msg->angular.z;
-
-        // Process the incoming velocity commands
-        myAGV->execute(linearX, linearY, angularZ);
-    }
-
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;
-    std::shared_ptr<MyAGV> myAGV;
-};
-
-int main(int argc, char * argv[])
-{
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<MyAGVSubscriber>();
-    rclcpp::spin(node);
-    rclcpp::shutdown();
-    return 0;
+	linearX = msg.linear.x;
+	linearY = msg.linear.y;
+	angularZ = msg.angular.z;
 }
+
+int main(int argc, char* argv[])
+{
+	rclcpp::init(argc, argv);
+	auto node = std::make_shared<MyAGV>();
+
+	if (!node->init()) {
+		RCLCPP_ERROR(node->get_logger(), "myAGV initialization failed!");
+    } else {
+        RCLCPP_INFO(node->get_logger(), "myAGV initialized successfully!");
+    }
+	auto sub = node->create_subscription<geometry_msgs::msg::Twist>(
+        "cmd_vel", 50, cmdCallback);
+
+	rclcpp::Rate loop_rate(100); // 100Hz로 루프 주기 설정
+
+    while (rclcpp::ok()) {
+        rclcpp::spin_some(node); // 사용 가능한 모든 콜백 처리
+        node->execute(linearX, linearY, angularZ); // 여기서 execute 함수가 올바른지 확인 필요
+        loop_rate.sleep();
+    }
+
+    rclcpp::shutdown();
+
+	return 0;
+}
+

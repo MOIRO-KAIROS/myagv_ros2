@@ -1,30 +1,31 @@
+#include "myagv_odometry/myAGV.hpp" // 
+#include "rclcpp/rclcpp.hpp"
+
+
+#include <boost/asio.hpp>
+#include <boost/array.hpp>
+
 #include <vector>
+#include <chrono>
+#include <memory>
+#include <cmath>
 #include <iostream>
 #include <iomanip>
 #include <time.h>
 
-#include "myagv_odometry/myAGV.hpp"
-#include "std_msgs/msg/int8.hpp"
-
-//const unsigned char ender[2] = { 0x0d, 0x0a };
 const unsigned char header[2] = { 0xfe, 0xfe };
-//const int SPEED_INFO = 0xa55a;
-//const int GET_SPEED = 0xaaaa;
-//const double ROBOT_RADIUS = 105.00;
-//const double ROBOT_LENGTH = 210.50;
 
 boost::asio::io_service iosev;
-//boost::asio::serial_port sp(iosev, "/dev/ttyUSB0");
 boost::asio::serial_port sp(iosev, "/dev/ttyACM0");
 
-boost::array<double, 36> odom_pose_covariance = {
+std::array<double, 36> odom_pose_covariance = {
     {1e-9, 0, 0, 0, 0, 0,
     0, 1e-3, 1e-9, 0, 0, 0,
     0, 0, 1e6, 0, 0, 0,
     0, 0, 0, 1e6, 0, 0,
     0, 0, 0, 0, 1e6, 0,
     0, 0, 0, 0, 0, 1e-9} };
-boost::array<double, 36> odom_twist_covariance = {
+std::array<double, 36> odom_twist_covariance = {
     {1e-9, 0, 0, 0, 0, 0,
     0, 1e-3, 1e-9, 0, 0, 0,
     0, 0, 1e6, 0, 0, 0,
@@ -32,18 +33,10 @@ boost::array<double, 36> odom_twist_covariance = {
     0, 0, 0, 0, 1e6, 0,
     0, 0, 0, 0, 0, 1e-9} };
 
-void send()
+MyAGV::MyAGV() 
+: Node("myagv_odometry_node", rclcpp::NodeOptions().use_intra_process_comms(true)) 
 {
-    ;
-}
 
-void receive()
-{
-    ;
-}
-
-MyAGV::MyAGV()
-{
     x = 0.0;
     y = 0.0;
     theta = 0.0;
@@ -55,7 +48,7 @@ MyAGV::MyAGV()
 
 MyAGV::~MyAGV()
 {
-    ;
+    // ;
 }
 
 bool MyAGV::init()
@@ -66,12 +59,12 @@ bool MyAGV::init()
     sp.set_option(boost::asio::serial_port::stop_bits(boost::asio::serial_port::stop_bits::one));
     sp.set_option(boost::asio::serial_port::character_size(8));
 
-    ros::Time::init();
-    currentTime = ros::Time::now();
-    lastTime = ros::Time::now();
+    lastTime, currentTime = this->get_clock()->now();
 
-    pub = n.advertise<nav_msgs::Odometry>("odom", 50);
-    pub_v = n.advertise<std_msgs::Int8>("Voltage", 1000);
+    // pub = n.advertise<nav_msgs::Odometry>("odom", 50);
+    pub = this->create_publisher<nav_msgs::msg::Odometry>("odom", 50);
+    // pub_v = n.advertise<std_msgs::Int8>("Voltage", 1000);
+    pub_v = this->create_publisher<std_msgs::msg::Int8>("Voltage", 1000);
     restore(); //first restore,abort current err,don't restore
     return true;
 }
@@ -107,8 +100,7 @@ bool MyAGV::readSpeed()
     bool header_found = false;
     while (!header_found) {
         ++count;
-        ret = boost::asio::read(sp, boost::asio::buffer(buf_header), er2);     
-//	    ROS_INFO("start");
+        ret = boost::asio::read(sp, boost::asio::buffer(buf_header), er2);
         if (ret != 1) {
             continue;
         }
@@ -128,77 +120,28 @@ bool MyAGV::readSpeed()
         }
         header_found = true;
     }
-    //std::cout << std::endl;
-
-    // if (!(buf_header[0] == header[0] && buf_header[1] == header[1]))  {
-    //     // not a header
-    //     return false;
-    // }
 
     ret = boost::asio::read(sp, boost::asio::buffer(buf), boost::asio::transfer_at_least(4), er2); // ready break
-   /* std::cout << "readSpeed: " << ret;
-    for (int i = 0; i < ret; ++i) {
-        std::cout << std::hex << std::setfill('0') << std::setw(2) << (int)(buf[i]) << " ";
-    }
-    std::cout << std::endl;*/
+
 	if ((buf[0] + buf[1] + buf[2] + buf[3]) == buf[4]) {
         int wheel_num = 0;
         for (int i = 0; i < 4; ++i) {
             if (buf[i] == 1) {
                 wheel_num = i+1;
-                ROS_ERROR("ERROR %d wheel current > 2000", wheel_num);
+                // ROS_ERROR("ERROR %d wheel current > 2000", wheel_num);
+                RCLCPP_ERROR(this->get_logger(), "ERROR %d wheel current > 2000", wheel_num);
             }
         }
         restoreRun();
         return false;
     }
     if (ret != 16) {
-        ROS_ERROR("Read error");
+        // ROS_ERROR("Read error");
+        RCLCPP_ERROR(this->get_logger(), "Read error");
         return false;
     }
-    // for (int i = 0; i < ret; ++i) {
-    //     std::cout << std::hex << std::setfill('0') << std::setw(2) << (int)(buf[i]) << " ";
-    // }
-    // std::cout << std::endl;
 
 
-    // if (ret < 18) {
-    //     //ROS_ERROR("Read less error");
-    //     return false;
-    // }
-    // bool header_ok = false;
-    // int header_idx = 0;
-    // for (int i = 0; i < (ret-17); ++i) {
-    //     if (buf[i] == header[0] && buf[i+1] == header[1])  {
-    //         header_ok = true;
-    //         header_idx = i;
-    //         break;
-    //     }
-    // }
-    // if (!header_ok) {
-    //     //ROS_ERROR("Cannot find header");
-    //     return false;
-    // }
-
-
-    //ROS_INFO("RED BYTES: %ul", ret);
-	// if (er2 == boost::asio::error::eof){ 
-	// 	// ROS_ERROR("asio error 1");
-	// }
-
-
-    // int index = 0;
-    // for (index = 0; index < 40 - 17; ++index)
-    // {
-    //     if(buf[index] == header[0] && buf[index] == header[1])
-    //         break;
-    // }
-
-    // if (index == 40 - 18)
-    // {
-    //     ROS_ERROR("Received message header error!");
-    //     //return false;
-    // }
 
     int index = 0;
     //index += 2;
@@ -207,7 +150,8 @@ bool MyAGV::readSpeed()
         check += buf[index + i];
     if (check % 256 != buf[index + 15])
 	{
-		ROS_ERROR("error 3!");	
+		// ROS_ERROR("error 3!");
+        RCLCPP_ERROR(this->get_logger(), "error 3!");	
     	return false;
 	}
 
@@ -222,10 +166,12 @@ bool MyAGV::readSpeed()
     wx = ((buf[index + 9] + buf[index + 10] * 256 ) - 10000) * 0.1;
     wy = ((buf[index + 11] + buf[index + 12] * 256 ) - 10000) * 0.1;
     wz = ((buf[index + 13] + buf[index + 14] * 256 ) - 10000) * 0.1;
+    
+    // currentTime = ros::Time::now();
+    currentTime = this->get_clock()->now();
 
-    currentTime = ros::Time::now();
-
-    double dt = (currentTime - lastTime).toSec();
+    // double dt = (currentTime - lastTime).toSec();
+    double dt = (currentTime - lastTime).seconds();
     double delta_x = (vx * cos(theta) - vy * sin(theta)) * dt;
     double delta_y = (vx * sin(theta) + vy * cos(theta)) * dt;
     double delta_th = vtheta * dt;
@@ -235,11 +181,6 @@ bool MyAGV::readSpeed()
     theta += delta_th;
     lastTime = currentTime;
 
-    // std::cout << "Received message is: " << dt << "|" << vx << "," << vy << "," << vtheta << "|"
-    //                                       << ax << "," << ay << "," << az << "|"
-    //                                     << wx << "," << wy << "," << wz << std::endl;
-    // std::cout << "current pos is: " << x << "," << y << "," << theta << std::endl;
-
     return true;
 }
 
@@ -247,7 +188,7 @@ void MyAGV::writeSpeed(double movex, double movey, double rot)
 {
     if (movex == 10 && movey == 10 && rot == 10)
     {
-        char buf[7] = {0xfe, 0xfe ,0x01 ,0x01 ,0x01 ,0x03};
+        int buf[6] = {0xfe, 0xfe ,0x01 ,0x01 ,0x01 ,0x03};
         boost::asio::write(sp, boost::asio::buffer(buf));
         unsigned char buf_header[1] = {0};
 
@@ -284,16 +225,19 @@ void MyAGV::writeSpeed(double movex, double movey, double rot)
                 if (buf_header[0] == 0x01)
                 {
                     ret = boost::asio::read(sp, boost::asio::buffer(buf_header), er2);
-                    std_msgs::Int8 msg;
+                    std_msgs::msg::Int8 msg;
                     msg.data = (int)buf_header[0] / 10;
-                    ROS_INFO("Voltage: %d", msg.data);
-                    pub_v.publish(msg);
+                    // ROS_INFO("Voltage: %d", msg.data);
+                    RCLCPP_INFO(this->get_logger(), "Voltage: %d", msg.data);
+                    // pub_v.publish(msg);
+                    pub_v->publish(msg);
                     break;
                 }
             }
             if (time(NULL) - now_t > 3)
             {
-                ROS_ERROR("Get Voltage timeout");
+                // ROS_ERROR("Get Voltage timeout");
+                RCLCPP_ERROR(this->get_logger(), "Get Voltage timeout");
                 break;
             }
         }
@@ -305,10 +249,6 @@ void MyAGV::writeSpeed(double movex, double movey, double rot)
     if (rot > 1.0) rot = 1.0;
     if (rot < -1.0) rot = -1.0;
 
-    //char x_send = static_cast<char>(movex * 100) + 128;
-    //char y_send = static_cast<char>(movey * 100) + 128;
-    //char rot_send = static_cast<char>(rot * 100) + 128;
-   //char check = x_send + y_send + rot_send;
     unsigned char x_send = static_cast<signed char>(movex * 100) + 128;
     unsigned char y_send = static_cast<signed char>(movey * 100) + 128;
     unsigned char rot_send = static_cast<signed char>(rot * 100) + 128;
@@ -321,13 +261,6 @@ void MyAGV::writeSpeed(double movex, double movey, double rot)
     buf[3] = y_send;
     buf[4] = rot_send;
     buf[5] = check;
-    
-    /*std::cout << "writeSpeed: ";
-    std::cout << movex;
-     for (int i = 0; i < 6; ++i) {
-         std::cout << std::hex << std::setfill('0') << std::setw(2) << (int)(buf[i]) << " ";
-     }
-    std::cout << std::endl;*/
 
     boost::asio::write(sp, boost::asio::buffer(buf));}
 }
@@ -338,22 +271,26 @@ bool MyAGV::execute(double linearX, double linearY, double angularZ)
     writeSpeed(linearX, linearY, angularZ);
     readSpeed(); // easy to report error 
 
-    geometry_msgs::TransformStamped odom_trans;
+    geometry_msgs::msg::TransformStamped odom_trans;
     odom_trans.header.stamp = currentTime;
     odom_trans.header.frame_id = "odom";
     odom_trans.child_frame_id = "base_footprint";
 
-    geometry_msgs::Quaternion odom_quat;
-    odom_quat = tf::createQuaternionMsgFromYaw(theta); // THETA
+    tf2::Quaternion quat_tf;
+    geometry_msgs::msg::Quaternion odom_quat;
+    // odom_quat = tf2_ros::createQuaternionMsgFromYaw(theta); // THETA
+    quat_tf.setRPY(0, 0, theta);
+    odom_quat = tf2::toMsg(quat_tf); // THETA
     odom_trans.transform.translation.x = x; //X
     odom_trans.transform.translation.y = y; //Y
 
     odom_trans.transform.translation.z = 0.0;
     odom_trans.transform.rotation = odom_quat;
 
-    odomBroadcaster.sendTransform(odom_trans);
+    // odomBroadcaster.sendTransform(odom_trans);
+    odomBroadcaster->sendTransform(odom_trans);
 
-    nav_msgs::Odometry msgl;
+    nav_msgs::msg::Odometry msgl;
     msgl.header.stamp = currentTime;
     msgl.header.frame_id = "odom";
 
@@ -369,5 +306,6 @@ bool MyAGV::execute(double linearX, double linearY, double angularZ)
     msgl.twist.twist.angular.z = vtheta;
     msgl.twist.covariance = odom_twist_covariance;
 
-    pub.publish(msgl);
+    // pub.publish(msgl);
+    pub->publish(msgl);
 }
