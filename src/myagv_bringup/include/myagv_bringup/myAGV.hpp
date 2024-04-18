@@ -80,4 +80,4 @@ private:
 };
 
 
-#endif // !MYAGV_H
+#endif // !MYAGV_HPP
