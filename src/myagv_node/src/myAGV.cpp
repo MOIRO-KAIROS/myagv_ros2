@@ -37,6 +37,8 @@ void receive(){
 MyAGV::MyAGV()
 : Node("myagv_node", rclcpp::NodeOptions().use_intra_process_comms(true))
 {
+    RCLCPP_INFO(this->get_logger(), "myAGV_node started");
+    std::cout << "myAGV_node started" << std::endl;
     x = 0.0;
     y = 0.0;
     theta = 0.0;
@@ -63,6 +65,7 @@ MyAGV::~MyAGV()
 
 bool MyAGV::init()
 {
+    std::cout << "MyAGV Initailizing!" << std::endl;
     sp.set_option(boost::asio::serial_port::baud_rate(115200));
     sp.set_option(boost::asio::serial_port::flow_control(boost::asio::serial_port::flow_control::none));
     sp.set_option(boost::asio::serial_port::parity(boost::asio::serial_port::parity::none));
@@ -195,6 +198,7 @@ bool MyAGV::readSpeed()
 
 void MyAGV::writeSpeed(double movex, double movey, double rot)
 {
+    std::cout << "Move MyAGV"<< std::endl;
     if (movex == 10 && movey == 10 && rot == 10)
     {
         int buf[6] = {0xfe, 0xfe ,0x01 ,0x01 ,0x01 ,0x03};
