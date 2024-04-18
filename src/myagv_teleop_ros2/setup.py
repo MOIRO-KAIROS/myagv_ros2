@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'myagv_teleop_ros2 = myagv_teleop_ros2.script.myagv_teleop_ros2:main'
+            'teleop_keyboard = myagv_teleop_ros2.script.teleop_keyboard:main'
         ],
     },
 )
