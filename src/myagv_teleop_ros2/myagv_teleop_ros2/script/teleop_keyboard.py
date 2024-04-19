@@ -69,7 +69,7 @@ def main(args=None):
             elif key == 'l':
                 x = 0.0            
                 y = -0.5
-                theta = 0
+                theta = 0.0
             elif key == 'u':
                 x = 0.0            
                 y = 0.0
