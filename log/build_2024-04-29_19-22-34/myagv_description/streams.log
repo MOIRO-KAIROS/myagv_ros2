@@ -1,0 +1,25 @@
+[0.253s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[3.306s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[3.706s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description
+[3.784s] -- Install configuration: ""
+[3.812s] -- Execute custom install script
+[3.827s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/urdf/myAGV.urdf
+[3.835s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_all.dae
+[3.845s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_base.dae
+[3.852s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_up.dae
+[3.853s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/package_run_dependencies/myagv_description
+[3.872s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/parent_prefix_path/myagv_description
+[3.874s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/ament_prefix_path.sh
+[3.876s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/ament_prefix_path.dsv
+[3.883s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/path.sh
+[3.884s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/path.dsv
+[3.891s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.bash
+[3.892s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.sh
+[3.903s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.zsh
+[3.941s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.dsv
+[3.942s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.dsv
+[3.961s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/packages/myagv_description
+[3.961s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig.cmake
+[3.965s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig-version.cmake
+[3.968s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.xml
+[4.009s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description

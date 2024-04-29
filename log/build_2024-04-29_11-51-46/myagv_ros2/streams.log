@@ -1,0 +1,42 @@
+[0.277s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ros2': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ros2
+[1.087s] -- The C compiler identification is GNU 11.4.0
+[1.670s] -- The CXX compiler identification is GNU 11.4.0
+[1.735s] -- Detecting C compiler ABI info
+[2.141s] -- Detecting C compiler ABI info - done
+[2.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.177s] -- Detecting C compile features
+[2.180s] -- Detecting C compile features - done
+[2.199s] -- Detecting CXX compiler ABI info
+[2.590s] -- Detecting CXX compiler ABI info - done
+[2.618s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.618s] -- Detecting CXX compile features
+[2.620s] -- Detecting CXX compile features - done
+[2.715s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.831s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.299s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.892s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.357s] -- Configuring done
+[5.375s] -- Generating done
+[5.380s] -- Build files have been written to: /home/ubuntu/myagv_ros2/build/myagv_ros2
+[5.399s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ros2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ros2
+[5.420s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ros2': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ros2 -- -j4 -l4
+[5.579s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ros2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ros2 -- -j4 -l4
+[5.702s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ros2': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ros2
+[5.734s] -- Install configuration: ""
+[5.736s] -- Execute custom install script
+[5.738s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/ament_index/resource_index/package_run_dependencies/myagv_ros2
+[5.772s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/ament_index/resource_index/parent_prefix_path/myagv_ros2
+[5.805s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/environment/ament_prefix_path.sh
+[5.841s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/environment/ament_prefix_path.dsv
+[5.874s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/environment/path.sh
+[5.907s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/environment/path.dsv
+[5.943s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/local_setup.bash
+[5.978s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/local_setup.sh
+[6.013s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/local_setup.zsh
+[6.048s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/local_setup.dsv
+[6.082s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.dsv
+[6.116s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/ament_index/resource_index/packages/myagv_ros2
+[6.151s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/cmake/myagv_ros2Config.cmake
+[6.184s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/cmake/myagv_ros2Config-version.cmake
+[6.220s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.xml
+[6.261s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ros2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ros2

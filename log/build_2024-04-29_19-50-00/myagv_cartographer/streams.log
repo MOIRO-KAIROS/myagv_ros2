@@ -1,0 +1,24 @@
+[0.186s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_cartographer -- -j4 -l4
+[3.665s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_cartographer -- -j4 -l4
+[3.820s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_cartographer
+[3.929s] -- Install configuration: ""
+[3.954s] -- Execute custom install script
+[3.955s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch/cartographer.launch.py
+[3.963s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/launch/occupancy_grid.launch.py
+[3.974s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/config/myagv_lidar.lua
+[3.981s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/package_run_dependencies/myagv_cartographer
+[3.990s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/parent_prefix_path/myagv_cartographer
+[3.993s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/ament_prefix_path.sh
+[4.002s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/ament_prefix_path.dsv
+[4.014s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/path.sh
+[4.028s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/environment/path.dsv
+[4.033s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.bash
+[4.111s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.sh
+[4.266s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.zsh
+[4.269s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/local_setup.dsv
+[4.277s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.dsv
+[4.317s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/ament_index/resource_index/packages/myagv_cartographer
+[4.321s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/cmake/myagv_cartographerConfig.cmake
+[4.324s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/cmake/myagv_cartographerConfig-version.cmake
+[4.336s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.xml
+[4.339s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_cartographer

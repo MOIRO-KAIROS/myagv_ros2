@@ -1,0 +1,49 @@
+[0.082s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_description
+[1.405s] -- The C compiler identification is GNU 11.4.0
+[2.166s] -- The CXX compiler identification is GNU 11.4.0
+[2.221s] -- Detecting C compiler ABI info
+[2.725s] -- Detecting C compiler ABI info - done
+[2.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.760s] -- Detecting C compile features
+[2.766s] -- Detecting C compile features - done
+[2.785s] -- Detecting CXX compiler ABI info
+[3.200s] -- Detecting CXX compiler ABI info - done
+[3.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.228s] -- Detecting CXX compile features
+[3.230s] -- Detecting CXX compile features - done
+[3.287s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.273s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.706s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.242s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[6.156s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.788s] -- Added test 'lint_cmake' to check CMake code style
+[6.803s] -- Added test 'xmllint' to check XML markup files
+[6.814s] -- Configuring done
+[6.844s] -- Generating done
+[6.851s] -- Build files have been written to: /home/ubuntu/myagv_ros2/build/myagv_description
+[6.875s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_description
+[6.885s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[7.039s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[7.204s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description
+[7.229s] -- Install configuration: ""
+[7.230s] -- Execute custom install script
+[7.233s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/urdf/myAGV.urdf
+[7.290s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_all.dae
+[7.329s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_base.dae
+[7.362s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/meshes/myagv_up.dae
+[7.398s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/package_run_dependencies/myagv_description
+[7.432s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/parent_prefix_path/myagv_description
+[7.466s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/ament_prefix_path.sh
+[7.502s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/ament_prefix_path.dsv
+[7.535s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/path.sh
+[7.569s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/environment/path.dsv
+[7.604s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.bash
+[7.637s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.sh
+[7.671s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.zsh
+[7.707s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/local_setup.dsv
+[7.741s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.dsv
+[7.773s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/ament_index/resource_index/packages/myagv_description
+[7.811s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig.cmake
+[7.844s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig-version.cmake
+[7.878s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.xml
+[7.917s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description

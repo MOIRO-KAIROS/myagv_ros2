@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyagv_node_lib.a CMakeFiles/myagv_node_lib.dir/src/myAGV.cpp.o
+/usr/bin/ranlib libmyagv_node_lib.a

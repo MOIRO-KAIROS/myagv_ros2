@@ -1,0 +1,31 @@
+[0.504s] Invoking command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[1.238s] [ 50%] Built target ydlidar_ros2_driver_node
+[2.449s] [100%] Built target ydlidar_ros2_driver_client
+[2.548s] Invoked command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[2.843s] Invoking command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver
+[2.926s] -- Install configuration: ""
+[2.930s] -- Execute custom install script
+[2.942s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[2.945s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[2.957s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[2.975s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[2.977s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[2.978s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[2.988s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[2.991s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[2.992s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[2.993s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[2.995s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[2.996s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[2.997s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[2.998s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[2.999s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[2.999s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[3.000s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[3.001s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[3.003s] -- Symlinking: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[3.086s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[3.087s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[3.088s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[3.089s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[3.116s] Invoked command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver

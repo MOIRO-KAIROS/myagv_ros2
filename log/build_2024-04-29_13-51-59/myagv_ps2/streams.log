@@ -1,0 +1,49 @@
+[0.073s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ps2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ps2
+[0.152s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.962s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.197s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.211s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.244s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.307s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.699s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.707s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.839s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[3.841s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[4.092s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.480s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.001s] -- Configuring done
+[5.144s] -- Generating done
+[5.161s] -- Build files have been written to: /home/ubuntu/myagv_ros2/build/myagv_ps2
+[5.226s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ps2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ps2
+[5.229s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
+[5.512s] [35m[1mConsolidate compiler generated dependencies of target ps2_publisher[0m
+[5.531s] [35m[1mConsolidate compiler generated dependencies of target ps2_publisher_number[0m
+[5.661s] [ 50%] Built target ps2_publisher
+[5.689s] [100%] Built target ps2_publisher_number
+[5.768s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
+[6.052s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2
+[6.115s] -- Install configuration: ""
+[6.119s] -- Execute custom install script
+[6.120s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/launch/myagv_ps2.launch.py
+[6.122s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/launch/myagv_ps2_number.launch.py
+[6.125s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/lib/myagv_ps2/ps2_publisher
+[6.126s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/lib/myagv_ps2/ps2_publisher_number
+[6.127s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/ament_index/resource_index/package_run_dependencies/myagv_ps2
+[6.131s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/ament_index/resource_index/parent_prefix_path/myagv_ps2
+[6.132s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/environment/ament_prefix_path.sh
+[6.136s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/environment/ament_prefix_path.dsv
+[6.137s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/environment/path.sh
+[6.138s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/environment/path.dsv
+[6.139s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/local_setup.bash
+[6.143s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/local_setup.sh
+[6.143s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/local_setup.zsh
+[6.144s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/local_setup.dsv
+[6.144s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.dsv
+[6.209s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/ament_index/resource_index/packages/myagv_ps2
+[6.221s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/cmake/myagv_ps2Config.cmake
+[6.222s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/cmake/myagv_ps2Config-version.cmake
+[6.223s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.xml
+[6.251s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2

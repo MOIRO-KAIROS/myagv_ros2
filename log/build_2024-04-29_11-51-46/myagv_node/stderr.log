@@ -1,0 +1,21 @@
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:[m[K In member function ‘[01m[Kbool MyAGV::readSpeed()[m[K’:
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:108:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  108 |     int [01;35m[Ki[m[K, length = 0, count = 0;
+      |         [01;35m[K^[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:108:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  108 |     int i, [01;35m[Klength[m[K = 0, count = 0;
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:109:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KcheckSum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  109 |     unsigned char [01;35m[KcheckSum[m[K;
+      |                   [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:166:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  166 |     int [01;35m[Kcheck[m[K = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:[m[K In member function ‘[01m[Kvoid MyAGV::writeSpeed(double, double, double)[m[K’:
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:219:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kheader_found[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  219 |         bool [01;35m[Kheader_found[m[K = false;
+      |              [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:[m[K In member function ‘[01m[Kbool MyAGV::execute(double, double, double)[m[K’:
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_node/src/myAGV.cpp:331:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  331 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

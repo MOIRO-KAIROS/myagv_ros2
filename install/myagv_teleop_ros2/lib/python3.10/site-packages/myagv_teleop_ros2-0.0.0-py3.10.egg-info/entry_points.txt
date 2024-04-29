@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_keyboard = myagv_teleop_ros2.script.teleop_keyboard:main
+

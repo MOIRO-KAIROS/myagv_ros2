@@ -1,0 +1,32 @@
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:158:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  158 |     int len, [01;35m[Ktype[m[K;
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:158:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  158 |     int len, [01;35m[Ktype[m[K;
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:159:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaxis_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |     int [01;35m[Kaxis_value[m[K, button_value;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:159:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaxis_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |     int [01;35m[Kaxis_value[m[K, button_value;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:159:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbutton_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |     int axis_value, [01;35m[Kbutton_value[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:159:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbutton_value[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |     int axis_value, [01;35m[Kbutton_value[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:160:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumber_of_axis[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  160 |     int [01;35m[Knumber_of_axis[m[K, number_of_buttons ;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:160:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumber_of_axis[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  160 |     int [01;35m[Knumber_of_axis[m[K, number_of_buttons ;
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol_number.cpp:160:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumber_of_buttons[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  160 |     int number_of_axis, [01;35m[Knumber_of_buttons[m[K ;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/myagv_ros2/src/myagv_ps2/src/carcontrol.cpp:160:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumber_of_buttons[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  160 |     int number_of_axis, [01;35m[Knumber_of_buttons[m[K ;
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~[m[K

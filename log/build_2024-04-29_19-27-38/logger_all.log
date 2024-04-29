@@ -1,0 +1,630 @@
+[0.805s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.806s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb85b4ac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb86b18d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb86b18d0>>)
+[2.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.297s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/myagv_ros2'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'ignore'
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'ignore_ament_install'
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['colcon_pkg']
+[2.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'colcon_pkg'
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['colcon_meta']
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'colcon_meta'
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extensions ['ros']
+[2.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_bringup) by extension 'ros'
+[2.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_bringup' with type 'ros.ament_cmake' and name 'myagv_bringup'
+[2.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'ignore'
+[2.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'ignore_ament_install'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['colcon_pkg']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'colcon_pkg'
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['colcon_meta']
+[2.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'colcon_meta'
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extensions ['ros']
+[2.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_cartographer) by extension 'ros'
+[2.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_cartographer' with type 'ros.ament_cmake' and name 'myagv_cartographer'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['ignore', 'ignore_ament_install']
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'ignore'
+[2.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'ignore_ament_install'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['colcon_pkg']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'colcon_pkg'
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['colcon_meta']
+[2.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'colcon_meta'
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extensions ['ros']
+[2.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_description) by extension 'ros'
+[2.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_description' with type 'ros.ament_cmake' and name 'myagv_description'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'ignore'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'ignore_ament_install'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['colcon_pkg']
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'colcon_pkg'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['colcon_meta']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'colcon_meta'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extensions ['ros']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_navigation2) by extension 'ros'
+[2.480s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_navigation2' with type 'ros.ament_cmake' and name 'myagv_navigation2'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extensions ['ignore', 'ignore_ament_install']
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extension 'ignore'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extension 'ignore_ament_install'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extensions ['colcon_pkg']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extension 'colcon_pkg'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extensions ['colcon_meta']
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extension 'colcon_meta'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extensions ['ros']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_node) by extension 'ros'
+[2.500s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_node' with type 'ros.ament_cmake' and name 'myagv_node'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extensions ['ignore', 'ignore_ament_install']
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extension 'ignore'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extension 'ignore_ament_install'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extensions ['colcon_pkg']
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extension 'colcon_pkg'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extensions ['colcon_meta']
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extension 'colcon_meta'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extensions ['ros']
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ps2) by extension 'ros'
+[2.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ps2' with type 'ros.ament_cmake' and name 'myagv_ps2'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'ignore'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'ignore_ament_install'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['colcon_pkg']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'colcon_pkg'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['colcon_meta']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'colcon_meta'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extensions ['ros']
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_ros2) by extension 'ros'
+[2.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_ros2' with type 'ros.ament_cmake' and name 'myagv_ros2'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'ignore'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'ignore_ament_install'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['colcon_pkg']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'colcon_pkg'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['colcon_meta']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'colcon_meta'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extensions ['ros']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/myagv_teleop_ros2) by extension 'ros'
+[2.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myagv_teleop_ros2' with type 'ros.ament_python' and name 'myagv_teleop_ros2'
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[2.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.749s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/ubuntu/myagv_ros2/install
+[2.762s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/humble
+[2.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.091s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_args' from command line to 'None'
+[3.092s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_target' from command line to 'None'
+[3.092s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.092s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[3.093s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[3.093s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[3.093s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[3.093s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[3.093s] Level 5:colcon.colcon_core.verb:set package 'myagv_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.093s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_cartographer', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_cartographer', 'symlink_install': False, 'test_result_base': None}
+[3.096s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_args' from command line to 'None'
+[3.096s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_target' from command line to 'None'
+[3.096s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.096s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.097s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.097s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.097s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.097s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.097s] Level 5:colcon.colcon_core.verb:set package 'myagv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.097s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_description', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_description', 'symlink_install': False, 'test_result_base': None}
+[3.099s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_args' from command line to 'None'
+[3.099s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_target' from command line to 'None'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'myagv_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.100s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_navigation2', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_navigation2', 'symlink_install': False, 'test_result_base': None}
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_target' from command line to 'None'
+[3.103s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.103s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.103s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.103s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.103s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.104s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.104s] Level 5:colcon.colcon_core.verb:set package 'myagv_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.104s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_node', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_node', 'symlink_install': False, 'test_result_base': None}
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_args' from command line to 'None'
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_target' from command line to 'None'
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_clean_first' from command line to 'False'
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'cmake_force_configure' from command line to 'False'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'ament_cmake_args' from command line to 'None'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'myagv_ps2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.107s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ps2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_ps2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_ps2', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_ps2', 'symlink_install': False, 'test_result_base': None}
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_args' from command line to 'None'
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_target' from command line to 'None'
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.109s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.110s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.110s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.110s] Level 5:colcon.colcon_core.verb:set package 'myagv_teleop_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.110s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_teleop_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_teleop_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.113s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[3.115s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_args' from command line to 'None'
+[3.115s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_target' from command line to 'None'
+[3.115s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.115s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.115s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.116s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.116s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.116s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.116s] Level 5:colcon.colcon_core.verb:set package 'myagv_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.116s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_bringup', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_args' from command line to 'None'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_target' from command line to 'None'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'myagv_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.120s] DEBUG:colcon.colcon_core.verb:Building package 'myagv_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/myagv_ros2/build/myagv_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/myagv_ros2/install/myagv_ros2', 'merge_install': False, 'path': '/home/ubuntu/myagv_ros2/src/myagv_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.121s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.127s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_description' with build type 'ament_cmake'
+[3.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_description'
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_node' with build type 'ament_cmake'
+[3.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_node'
+[3.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_cartographer' with build type 'ament_cmake'
+[3.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_cartographer'
+[3.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_teleop_ros2' with build type 'ament_python'
+[3.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_teleop_ros2', 'ament_prefix_path')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/ament_prefix_path.ps1'
+[3.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/ament_prefix_path.dsv'
+[3.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/ament_prefix_path.sh'
+[3.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_node -- -j4 -l4
+[3.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_cartographer -- -j4 -l4
+[5.902s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/myagv_ros2/src/myagv_teleop_ros2'
+[5.904s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_cartographer -- -j4 -l4
+[6.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_node -- -j4 -l4
+[6.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_description -- -j4 -l4
+[6.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_cartographer
+[6.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description
+[6.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_node
+[6.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_cartographer)
+[6.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_cartographer
+[6.801s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer' for CMake module files
+[6.813s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer' for CMake config files
+[6.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_cartographer', 'cmake_prefix_path')
+[6.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.ps1'
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.dsv'
+[6.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.sh'
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/bin'
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/lib/pkgconfig/myagv_cartographer.pc'
+[6.836s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/lib/python3.10/site-packages'
+[6.838s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/bin'
+[6.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.ps1'
+[6.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.dsv'
+[6.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.sh'
+[6.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.bash'
+[6.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.zsh'
+[6.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/colcon-core/packages/myagv_cartographer)
+[6.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_description)
+[6.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_description
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description' for CMake module files
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description' for CMake config files
+[6.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_description', 'cmake_prefix_path')
+[6.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.ps1'
+[6.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.dsv'
+[6.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.sh'
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/bin'
+[6.907s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/lib/pkgconfig/myagv_description.pc'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/lib/python3.10/site-packages'
+[6.925s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/bin'
+[6.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.ps1'
+[6.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.dsv'
+[6.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.sh'
+[6.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.bash'
+[6.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.zsh'
+[6.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_description/share/colcon-core/packages/myagv_description)
+[6.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_node)
+[6.979s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node' for CMake module files
+[6.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_node
+[6.986s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node' for CMake config files
+[7.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_node', 'cmake_prefix_path')
+[7.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.ps1'
+[7.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.dsv'
+[7.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.sh'
+[7.028s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib'
+[7.030s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/bin'
+[7.032s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib/pkgconfig/myagv_node.pc'
+[7.034s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib/python3.10/site-packages'
+[7.052s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/bin'
+[7.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.ps1'
+[7.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.dsv'
+[7.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.sh'
+[7.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.bash'
+[7.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.zsh'
+[7.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_node/share/colcon-core/packages/myagv_node)
+[7.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_cartographer)
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer' for CMake module files
+[7.179s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer' for CMake config files
+[7.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_cartographer', 'cmake_prefix_path')
+[7.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.ps1'
+[7.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.dsv'
+[7.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/hook/cmake_prefix_path.sh'
+[7.189s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/bin'
+[7.190s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/lib/pkgconfig/myagv_cartographer.pc'
+[7.191s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/lib/python3.10/site-packages'
+[7.192s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_cartographer/bin'
+[7.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.ps1'
+[7.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.dsv'
+[7.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.sh'
+[7.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.bash'
+[7.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/myagv_cartographer/package.zsh'
+[7.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_cartographer/share/colcon-core/packages/myagv_cartographer)
+[7.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_navigation2' with build type 'ament_cmake'
+[7.225s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_navigation2'
+[7.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.275s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_description)
+[7.277s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description' for CMake module files
+[7.281s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description' for CMake config files
+[7.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_description', 'cmake_prefix_path')
+[7.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.ps1'
+[7.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.dsv'
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/hook/cmake_prefix_path.sh'
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/bin'
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/lib/pkgconfig/myagv_description.pc'
+[7.326s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/lib/python3.10/site-packages'
+[7.328s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_description/bin'
+[7.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.ps1'
+[7.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.dsv'
+[7.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.sh'
+[7.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.bash'
+[7.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_description/share/myagv_description/package.zsh'
+[7.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_description/share/colcon-core/packages/myagv_description)
+[7.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_ps2' with build type 'ament_cmake'
+[7.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_ps2'
+[7.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_navigation2 -- -j4 -l4
+[7.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_node)
+[7.432s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node' for CMake module files
+[7.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node' for CMake config files
+[7.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_node', 'cmake_prefix_path')
+[7.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.ps1'
+[7.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.dsv'
+[7.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/hook/cmake_prefix_path.sh'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/bin'
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib/pkgconfig/myagv_node.pc'
+[7.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/lib/python3.10/site-packages'
+[7.453s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_node/bin'
+[7.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.ps1'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.dsv'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.sh'
+[7.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.bash'
+[7.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_node/share/myagv_node/package.zsh'
+[7.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_node/share/colcon-core/packages/myagv_node)
+[7.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_bringup' with build type 'ament_cmake'
+[7.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_bringup'
+[7.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
+[7.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[7.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_navigation2 -- -j4 -l4
+[7.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_navigation2
+[8.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[8.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_navigation2)
+[8.831s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2' for CMake module files
+[8.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_navigation2
+[8.891s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2' for CMake config files
+[9.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_navigation2', 'cmake_prefix_path')
+[9.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.ps1'
+[9.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.dsv'
+[9.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.sh'
+[9.188s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/bin'
+[9.188s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/lib/pkgconfig/myagv_navigation2.pc'
+[9.190s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/lib/python3.10/site-packages'
+[9.192s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/bin'
+[9.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.ps1'
+[9.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.dsv'
+[9.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.sh'
+[9.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.bash'
+[9.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.zsh'
+[9.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/colcon-core/packages/myagv_navigation2)
+[9.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup
+[9.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_navigation2)
+[9.327s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2' for CMake module files
+[9.330s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2' for CMake config files
+[9.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_navigation2', 'cmake_prefix_path')
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.ps1'
+[9.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.dsv'
+[9.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/hook/cmake_prefix_path.sh'
+[9.351s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/bin'
+[9.352s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/lib/pkgconfig/myagv_navigation2.pc'
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/lib/python3.10/site-packages'
+[9.355s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_navigation2/bin'
+[9.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.ps1'
+[9.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.dsv'
+[9.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.sh'
+[9.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.bash'
+[9.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.zsh'
+[9.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_navigation2/share/colcon-core/packages/myagv_navigation2)
+[9.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[9.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/ydlidar_ros2_driver'
+[9.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_bringup)
+[9.888s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup' for CMake module files
+[9.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[9.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup
+[9.962s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup' for CMake config files
+[10.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_bringup', 'cmake_prefix_path')
+[10.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.ps1'
+[10.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.dsv'
+[10.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.sh'
+[10.310s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/bin'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/lib/pkgconfig/myagv_bringup.pc'
+[10.312s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages'
+[10.313s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/bin'
+[10.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.ps1'
+[10.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.dsv'
+[10.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.sh'
+[10.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.bash'
+[10.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.zsh'
+[10.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_bringup/share/colcon-core/packages/myagv_bringup)
+[10.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
+[10.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_bringup)
+[10.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup' for CMake module files
+[10.474s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup' for CMake config files
+[10.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_bringup', 'cmake_prefix_path')
+[10.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.ps1'
+[10.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.dsv'
+[10.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/hook/cmake_prefix_path.sh'
+[10.522s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/bin'
+[10.522s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/lib/pkgconfig/myagv_bringup.pc'
+[10.524s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/lib/python3.10/site-packages'
+[10.525s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_bringup/bin'
+[10.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.ps1'
+[10.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.dsv'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.sh'
+[10.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.bash'
+[10.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.zsh'
+[10.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_bringup/share/colcon-core/packages/myagv_bringup)
+[10.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2
+[10.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ps2)
+[10.907s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2' for CMake module files
+[10.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2
+[11.128s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2' for CMake config files
+[11.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ps2', 'cmake_prefix_path')
+[11.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.ps1'
+[11.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.dsv'
+[11.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.sh'
+[11.494s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib'
+[11.495s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/bin'
+[11.495s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib/pkgconfig/myagv_ps2.pc'
+[11.496s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib/python3.10/site-packages'
+[11.497s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/bin'
+[11.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.ps1'
+[11.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.dsv'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.sh'
+[11.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.bash'
+[11.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.zsh'
+[11.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_ps2/share/colcon-core/packages/myagv_ps2)
+[11.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver -- -j4 -l4
+[12.159s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ps2)
+[12.161s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2' for CMake module files
+[12.164s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2' for CMake config files
+[12.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ps2', 'cmake_prefix_path')
+[12.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.ps1'
+[12.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.dsv'
+[12.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/hook/cmake_prefix_path.sh'
+[12.179s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib'
+[12.180s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/bin'
+[12.181s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib/pkgconfig/myagv_ps2.pc'
+[12.183s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/lib/python3.10/site-packages'
+[12.185s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ps2/bin'
+[12.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.ps1'
+[12.192s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.dsv'
+[12.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.sh'
+[12.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.bash'
+[12.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ps2/share/myagv_ps2/package.zsh'
+[12.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_ps2/share/colcon-core/packages/myagv_ps2)
+[12.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver
+[12.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/src/myagv_teleop_ros2': PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[12.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[12.499s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver' for CMake module files
+[12.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/ydlidar_ros2_driver
+[12.514s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver' for CMake config files
+[12.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[12.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[12.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[12.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[12.547s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib'
+[12.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[12.550s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[12.551s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[12.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[12.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[12.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[12.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[12.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[12.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[12.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[12.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[12.842s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver' for CMake module files
+[12.848s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver' for CMake config files
+[12.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[12.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[12.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[12.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[12.869s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib'
+[12.870s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[12.870s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[12.871s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[12.873s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/bin'
+[12.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[12.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[12.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[12.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[12.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[12.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[14.597s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2' for CMake module files
+[14.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/src/myagv_teleop_ros2' returned '0': PYTHONPATH=/home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/prefix_override:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/myagv_teleop_ros2 build --build-base /home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/build install --record /home/ubuntu/myagv_ros2/build/myagv_teleop_ros2/install.log --single-version-externally-managed install_data
+[14.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2' for CMake config files
+[14.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib'
+[14.616s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/bin'
+[14.617s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/pkgconfig/myagv_teleop_ros2.pc'
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/lib/python3.10/site-packages'
+[14.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_teleop_ros2', 'pythonpath')
+[14.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.ps1'
+[14.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.dsv'
+[14.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/hook/pythonpath.sh'
+[14.628s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/bin'
+[14.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_teleop_ros2)
+[14.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.ps1'
+[14.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.dsv'
+[14.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.sh'
+[14.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.bash'
+[14.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/myagv_teleop_ros2/package.zsh'
+[14.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2/share/colcon-core/packages/myagv_teleop_ros2)
+[14.646s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/myagv_ros2/src/myagv_ros2' with build type 'ament_cmake'
+[14.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/myagv_ros2/src/myagv_ros2'
+[14.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ros2': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ros2 -- -j4 -l4
+[14.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ros2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ros2 -- -j4 -l4
+[15.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ros2': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ros2
+[15.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2)
+[15.206s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2' for CMake module files
+[15.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ros2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ros2
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2' for CMake config files
+[15.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2', 'cmake_prefix_path')
+[15.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.ps1'
+[15.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.dsv'
+[15.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.sh'
+[15.232s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/bin'
+[15.232s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/lib/pkgconfig/myagv_ros2.pc'
+[15.233s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/lib/python3.10/site-packages'
+[15.234s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/bin'
+[15.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.ps1'
+[15.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.dsv'
+[15.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.sh'
+[15.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.bash'
+[15.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.zsh'
+[15.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_ros2/share/colcon-core/packages/myagv_ros2)
+[15.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myagv_ros2)
+[15.360s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2' for CMake module files
+[15.364s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2' for CMake config files
+[15.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('myagv_ros2', 'cmake_prefix_path')
+[15.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.ps1'
+[15.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.dsv'
+[15.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/hook/cmake_prefix_path.sh'
+[15.376s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/bin'
+[15.376s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/lib/pkgconfig/myagv_ros2.pc'
+[15.377s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/lib/python3.10/site-packages'
+[15.379s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/myagv_ros2/install/myagv_ros2/bin'
+[15.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.ps1'
+[15.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.dsv'
+[15.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.sh'
+[15.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.bash'
+[15.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/myagv_ros2/install/myagv_ros2/share/myagv_ros2/package.zsh'
+[15.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/myagv_ros2/install/myagv_ros2/share/colcon-core/packages/myagv_ros2)
+[15.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.406s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.454s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.455s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.463s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/myagv_ros2/install/local_setup.ps1'
+[15.472s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/myagv_ros2/install/_local_setup_util_ps1.py'
+[15.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/myagv_ros2/install/setup.ps1'
+[15.489s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/myagv_ros2/install/local_setup.sh'
+[15.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/myagv_ros2/install/_local_setup_util_sh.py'
+[15.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/myagv_ros2/install/setup.sh'
+[15.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/myagv_ros2/install/local_setup.bash'
+[15.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/myagv_ros2/install/setup.bash'
+[15.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/myagv_ros2/install/local_setup.zsh'
+[15.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/myagv_ros2/install/setup.zsh'

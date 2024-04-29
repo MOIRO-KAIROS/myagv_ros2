@@ -1,0 +1,29 @@
+[0.341s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_navigation2 -- -j4 -l4
+[1.409s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_navigation2 -- -j4 -l4
+[1.524s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_navigation2
+[1.673s] -- Install configuration: ""
+[1.925s] -- Execute custom install script
+[2.383s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/launch/navigation2.launch.py
+[2.568s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/mini_map.pgm
+[2.642s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/mini_map.yaml
+[2.881s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/myagv_map02.pgm
+[3.048s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/map/myagv_map02.yaml
+[3.058s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/param/follow_point_bt.xml
+[3.060s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/param/myagv.yaml
+[3.069s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/rviz/nav2_config_object_following.rviz
+[3.070s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/package_run_dependencies/myagv_navigation2
+[3.074s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/parent_prefix_path/myagv_navigation2
+[3.085s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/ament_prefix_path.sh
+[3.090s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/ament_prefix_path.dsv
+[3.095s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/path.sh
+[3.099s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/environment/path.dsv
+[3.100s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.bash
+[3.101s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.sh
+[3.110s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.zsh
+[3.111s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/local_setup.dsv
+[3.116s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.dsv
+[3.172s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/ament_index/resource_index/packages/myagv_navigation2
+[3.177s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/cmake/myagv_navigation2Config.cmake
+[3.182s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/cmake/myagv_navigation2Config-version.cmake
+[3.185s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_navigation2/share/myagv_navigation2/package.xml
+[3.238s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_navigation2

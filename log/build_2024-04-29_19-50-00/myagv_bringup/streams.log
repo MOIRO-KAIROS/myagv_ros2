@@ -1,0 +1,23 @@
+[0.438s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[2.097s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[2.101s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup
+[2.451s] -- Install configuration: ""
+[2.981s] -- Execute custom install script
+[2.995s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/launch/myagv.launch.py
+[3.013s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/launch/myagv_state_publisher.launch.py
+[3.015s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/package_run_dependencies/myagv_bringup
+[3.035s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/parent_prefix_path/myagv_bringup
+[3.056s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/ament_prefix_path.sh
+[3.058s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/ament_prefix_path.dsv
+[3.070s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/path.sh
+[3.082s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/path.dsv
+[3.084s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.bash
+[3.091s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.sh
+[3.094s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.zsh
+[3.098s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.dsv
+[3.101s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.dsv
+[3.199s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/packages/myagv_bringup
+[3.211s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/cmake/myagv_bringupConfig.cmake
+[3.240s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/cmake/myagv_bringupConfig-version.cmake
+[3.241s] -- Up-to-date symlink: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.xml
+[3.314s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/home/ubuntu/myagv_ros2/install/ydlidar_ros2_driver:/home/ubuntu/myagv_ros2/install/myagv_ros2:/home/ubuntu/myagv_ros2/install/myagv_ps2:/home/ubuntu/myagv_ros2/install/myagv_bringup:/home/ubuntu/myagv_ros2/install/myagv_navigation2:/home/ubuntu/myagv_ros2/install/myagv_cartographer:/home/ubuntu/myagv_ros2/install/myagv_teleop_ros2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup

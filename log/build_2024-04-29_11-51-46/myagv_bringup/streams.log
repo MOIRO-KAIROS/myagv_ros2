@@ -1,0 +1,43 @@
+[0.058s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_bringup
+[0.338s] -- The C compiler identification is GNU 11.4.0
+[0.616s] -- The CXX compiler identification is GNU 11.4.0
+[0.649s] -- Detecting C compiler ABI info
+[0.986s] -- Detecting C compiler ABI info - done
+[1.013s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.014s] -- Detecting C compile features
+[1.015s] -- Detecting C compile features - done
+[1.026s] -- Detecting CXX compiler ABI info
+[1.398s] -- Detecting CXX compiler ABI info - done
+[1.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.425s] -- Detecting CXX compile features
+[1.427s] -- Detecting CXX compile features - done
+[1.468s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.253s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.220s] -- Configuring done
+[3.237s] -- Generating done
+[3.241s] -- Build files have been written to: /home/ubuntu/myagv_ros2/build/myagv_bringup
+[3.257s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_bringup
+[3.265s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[3.419s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_bringup -- -j4 -l4
+[3.543s] Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_bringup': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup
+[3.572s] -- Install configuration: ""
+[3.573s] -- Execute custom install script
+[3.583s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/launch/myagv.launch.py
+[3.620s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/launch/myagv_state_publisher.launch.py
+[3.653s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/package_run_dependencies/myagv_bringup
+[3.690s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/parent_prefix_path/myagv_bringup
+[3.724s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/ament_prefix_path.sh
+[3.758s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/ament_prefix_path.dsv
+[3.795s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/path.sh
+[3.831s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/environment/path.dsv
+[3.869s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.bash
+[3.904s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.sh
+[3.937s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.zsh
+[3.972s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/local_setup.dsv
+[4.007s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.dsv
+[4.071s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/ament_index/resource_index/packages/myagv_bringup
+[4.112s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/cmake/myagv_bringupConfig.cmake
+[4.146s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/cmake/myagv_bringupConfig-version.cmake
+[4.180s] -- Symlinking: /home/ubuntu/myagv_ros2/install/myagv_bringup/share/myagv_bringup/package.xml
+[4.222s] Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_bringup' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/myagv_ros2/install/myagv_node:/home/ubuntu/myagv_ros2/install/myagv_description:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_bringup
