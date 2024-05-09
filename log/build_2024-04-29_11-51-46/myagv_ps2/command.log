@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ps2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ps2
-Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/myagv_ros2/src/myagv_ps2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/myagv_ros2/install/myagv_ps2
-Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
-Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/myagv_ros2/build/myagv_ps2 -- -j4 -l4
-Invoking command in '/home/ubuntu/myagv_ros2/build/myagv_ps2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2
-Invoked command in '/home/ubuntu/myagv_ros2/build/myagv_ps2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/myagv_ros2/build/myagv_ps2

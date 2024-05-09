@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/myagv_ros2/build/myagv_ps2/ps2_publisher" "/home/ubuntu/myagv_ros2/build/myagv_ps2/ps2_publisher_number" "TARGETS" "ps2_publisher" "ps2_publisher_number" "DESTINATION" "lib/myagv_ps2")

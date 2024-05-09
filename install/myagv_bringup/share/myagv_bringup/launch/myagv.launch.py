@@ -1,1 +1,0 @@
-/home/ubuntu/myagv_ros2/src/myagv_bringup/launch/myagv.launch.py

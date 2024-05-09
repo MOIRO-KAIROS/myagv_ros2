@@ -1,9 +1,0 @@
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/uninstall.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/myagv_description_uninstall.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/test.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/edit_cache.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/list_install_components.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/install.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/install/local.dir
-/home/ubuntu/myagv_ros2/build/myagv_description/CMakeFiles/install/strip.dir
