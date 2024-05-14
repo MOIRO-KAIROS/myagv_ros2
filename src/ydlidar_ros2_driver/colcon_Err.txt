@@ -1,0 +1,23 @@
+--- stderr: ydlidar_ros2_driver                                          
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp: In lambda function:
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:177:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+  177 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+  178 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+  179 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp: In lambda function:
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:187:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+  187 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:188:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+  188 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/ubuntu/moiro_yj/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:189:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+  189 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+---
+Finished <<< ydlidar_ros2_driver [1min 16s]

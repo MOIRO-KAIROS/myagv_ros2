@@ -13,7 +13,7 @@
 #endif
 #endif
 
-#include "wiringPi.h"
+#include "wiringPi.h" // add 
 #include "src/CYdLidar.h"
 #include <math.h>
 #include <chrono>
@@ -35,7 +35,7 @@
 
 int main(int argc, char *argv[]) {
   rclcpp::init(argc, argv);
-  
+ 
   // wiringPi Library Initialize
   wiringPiSetupGpio();
   
@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
   auto node = rclcpp::Node::make_shared("ydlidar_ros2_driver_node");
 
   RCLCPP_INFO(node->get_logger(), "[YDLIDAR INFO] Current ROS Driver Version: %s\n", ((std::string)ROS2Verision).c_str());
-
+  digitalWrite(20, LOW); // add 
   CYdLidar laser;
   std::string str_optvalue = "/dev/ydlidar";
   node->declare_parameter("port", str_optvalue);
@@ -173,25 +173,23 @@ int main(int argc, char *argv[]) {
   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>("scan", rclcpp::SensorDataQoS());
   auto pc_pub = node->create_publisher<sensor_msgs::msg::PointCloud>("point_cloud", rclcpp::SensorDataQoS());
   
-  auto stop_scan_service =
-    [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+  auto stop_scan_service = [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
   {
     return laser.turnOff();
   };
 
-  auto stop_service = node->create_service<std_srvs::srv::Empty>("stop_scan",stop_scan_service);
+  auto stop_service = node->create_service<std_srvs::srv::Empty>("stop_scan", stop_scan_service);
 
-  auto start_scan_service =
-    [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+  auto start_scan_service = [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
   {
     return laser.turnOn();
   };
 
-  auto start_service = node->create_service<std_srvs::srv::Empty>("start_scan",start_scan_service);
+  auto start_service = node->create_service<std_srvs::srv::Empty>("start_scan", start_scan_service);
 
   rclcpp::WallRate loop_rate(20);
 
@@ -263,7 +261,6 @@ int main(int argc, char *argv[]) {
 
 
   RCLCPP_INFO(node->get_logger(), "[YDLIDAR INFO] Now YDLIDAR is stopping .......");
-  digitalWrite(20, LOW);
   laser.turnOff();
   laser.disconnecting();
   rclcpp::shutdown();
